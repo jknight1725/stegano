@@ -17,15 +17,15 @@ Usage:
 
 Options:
         -h      Display help page
-
-        -d      Copy any hidden data appended to image file into current directory.
+	-d      Copy any hidden data appended to image file into current directory.
 
 Exit Status:
         Exit 0 upon success >0 upon error.
 
 Examples:
-        stegano image.jpeg data.zip
-        Appends data.zip after the terminating byte of image.jpeg
- 
-	    stegano -d image.jpeg
-	    Copy and unzip any appended data from image into current directory
+
+	stegano image.jpeg data.zip
+Appends data.zip after the terminating byte of image.jpeg
+ 	
+	stegano -d image.jpeg
+Copy and unzip any appended data from image into current directory
