@@ -9,7 +9,7 @@ Setup directions - Stegano can be ran as a normal ruby script 'ruby stegano.rb'
 To run stegano as a command line tool from any directory follow these instructions
 - place stegano.rb in usr/local/bin.
 - rename stegano.rb stegano `mv stegano.rb stegano`
-- enable executable permissions 'chmod +x stegano'
+- enable executable permissions `chmod +x stegano`
 stegano is now able to be called from any directory as such
 
 Usage:
